@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student feedback form</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+
+    <style>
+      h1,
+      label {
+        font-family: Poppins;
+      }
+      label {
+        padding: 20px;
+        font-size: 22px;
+        color: aliceblue;
+      }
+      h1 {
+        font-size: 35px;
+        padding-left: 20px;
+        padding-top: 20px;
+      }
+      body {
+        background: #7f00ff; /* fallback for old browsers */
+        background: -webkit-linear-gradient(
+          to right,
+          #e100ff,
+          #7f00ff
+        ); /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(
+          to right,
+          #e100ff,
+          #7f00ff
+        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      }
+      input {
+        border-radius: 2rem;
+        border: white;
+        height: 23px;
+        width: auto;
+        font-family: Poppins;
+        font-size: 15px;
+      }
+      .outer-back {
+        margin: auto;
+        width: 40%;
+        height: 550px;
+        background-color: rgba(245, 245, 245, 0.651);
+        border-radius: 2rem;
+      }
+      button {
+        font-family: Poppins;
+        font-size: 20px;
+        margin-left: 60px;
+        width: 80%;
+        border-radius: 100px;
+        border: wheat;
+        color: white;
+        background-color: #8000ff61;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="outer-back">
+      <h1>Feedback form 😎</h1>
+      <form>
+        <label for="fname">Enter Firstname: </label>
+        <input type="text" for="fname" /><br />
+        <label for="lname">Enter last name: </label>
+        <input type="text" for="fname" /><br />
+        <label style="padding-right: 88px" for="usn">Enter USN: </label>
+        <input type="text" for="usn" /><br />
+        <label style="padding-right: 104px" for="open">Enter OE: </label>
+        <input type="text" for="open" /><br />
+        <label for="gender">Enter Branch:</label><br />
+        <div style="margin-left: 20px">
+          <input type="radio" for="cs" />
+          <label for="female">Computer Science</label><br />
+          <input type="radio" for="is" />
+          <label for="is">Information Science</label><br />
+          <input type="radio" for="ec" />
+          <label for="ec">Electronics Communication</label><br />
+          <input type="radio" for="cv" />
+          <label for="cv">Civil</label><br />
+          <input type="radio" for="ps" />
+          <label for="ps">Polymer Science</label><br />
+          <input type="radio" for="ee" />
+          <label for="ee">Electrical</label><br />
+        </div>
+        <br />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
