@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Quicksand"
+      rel="stylesheet"
+    />
+    <title>Resume</title>
+    <style>
+      div {
+        text-align: center;
+        font-family: Quicksand;
+        font-weight: 900;
+        font-size: 20px;
+      }
+      hr{
+        background-color: rgb(209, 150, 79);
+        height: 2px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+          <h1 style="font-size: 45px">
+            <span style="color: rgb(209, 150, 79)">ADITI</span>
+            <span style="color: black">N</span>
+          </h1>
+        </p>
+      
+      
+        <p>RR Nagar Mysore | +91 1234567891 | adi@gmail.com</p>
+     
+<hr>
+      
+        <p style="color: rgb(209, 150, 79);font-size: 35px;">PROFILE SUMMARY</p>
+      
+        <p>
+          Aspiring Software Engineer excited at the prospect of preparing tests
+          and testing usabilities in a professional setting.</p>
+          <p>Diligent worker
+          recognized for my effective creative thinking and management skills.
+          </p><p>
+          Looking to apply my understanding of various domains of technical
+          knowledge
+        </p>
+      
+      <hr>
+        <p style="color: rgb(209, 150, 79);font-size: 35px;">TECHNICAL SKILLS</p>
+      
+      
+        <p>Web development</p>
+        <p>Java</p>
+        <p>Python</p>
+        <p>C/C++</p>
+      
+
+      <hr>
+        <p style="color: rgb(209, 150, 79);font-size: 35px;">PROJECTS</p>
+      
+      
+        <p>Intelligent Speech recognition AI</p>
+      
+      
+        <p>Ration card services system</p>
+      
+      
+        <p>College website prototype</p>
+      
+      
+        <p>Online retail store prototype</p>
+      <hr>
+      
+        <p style="color: rgb(209, 150, 79);font-size: 35px;">EDUCATION</p>
+      
+      
+        <p>Sri Jayachamarajendra College of Engineering, Mysuru</p>
+        <p>Dec 2020 - May 2024</p>
+     
+      
+        <p>Bachelor of Engineering in Computer Science and engineering</p>
+      
+      
+        <p>MASVS Gurukula PU college, Mysuru</p>
+        <p>2017-2019</p>
+     
+      
+        <p>PCMB</p>
+      
+      
+        <p>Board Percentage: 96.33</p>
+    
+      
+        <p>Kendriya Vidyalaya Sangathan, Mysuru</p>
+        <p>2007-2017</p>
+      
+      
+        <p>Class 10</p>
+    
+      
+        <p>CBSE CGPA: 9.4</p>
+        </div>
+  </body>
+</html>
